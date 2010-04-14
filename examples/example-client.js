@@ -13,7 +13,7 @@ var client = new smtp.Client();
 
 var message = "Date: "+(new Date()).toString()+"\n\
 From: Node-SMTP <"+config.from+">\n\
-To: <"+config.to+"\n\
+To: <"+config.to+">\n\
 Subject: Node SMTP Works!\n\
 So, It looks like node-smtp all works, which is great news!\n\
 \n\
